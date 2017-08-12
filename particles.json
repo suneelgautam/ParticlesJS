@@ -1,0 +1,32 @@
+{
+  "particles": {
+    "number": {
+      "value": 400
+    },
+    "size":{
+      "value":2,
+      "random":false
+    },
+    "move":{
+      "enable":true,
+      "speed":5,
+      "direction": "none",
+      "random":false,
+      "bounce":false,
+      "out_mode": "out"
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode": "repulse"
+      }
+    },
+    "modes":{
+      "repulse": {
+        "distance":100
+      }
+    }
+  }
+}
